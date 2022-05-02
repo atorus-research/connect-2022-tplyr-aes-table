@@ -36,8 +36,8 @@ ui <- fillPage(
   ),
   
   column(6,
-         plotOutput("AEBySubGroup"),
-         plotOutput("LabsBySubGroup")
+         plotOutput("AEBySubGroup", height = "200px"),
+         plotOutput("LabsBySubGroup", height = "200px")
   )
 )
 
