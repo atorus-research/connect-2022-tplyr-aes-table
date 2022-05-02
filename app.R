@@ -31,11 +31,11 @@ get_metadata_filters <- function(tab, row, col) {
 }
 
 ui <- fillPage(
-  column(8,
+  column(6,
          reactableOutput("aeTab")
   ),
   
-  column(4,
+  column(6,
          plotOutput("AEBySubGroup"),
          plotOutput("LabsBySubGroup")
   )
